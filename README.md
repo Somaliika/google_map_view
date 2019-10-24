@@ -6,7 +6,7 @@
 
 The simplest mode to show one address.
 
-[One place mode](one_place.png)
+[One place mode](./screenshots/one_place.png)
 
 * Drawing mode
 
@@ -14,13 +14,13 @@ Mode is used for selecting several areas on map. User clicks once specifying a c
 Then user can click right mouse button to remove the particular circle.
 In hand mode on map user can change a center and radius of created circles.
 
-[Drawing mode](drawing.png)
+[Drawing mode](./screenshots/drawing.png)
 
 * Displaying circles mode
 
 Mode is used as read-only map with list of existing circles.
 
-[Circles mode](circles.png)
+[Circles mode](./screenshots/circles.png)
 
 ## Usage:
 
