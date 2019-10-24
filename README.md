@@ -28,10 +28,11 @@ Mode is used as read-only map with list of existing circles.
 import GoogleMap from './components/GoogleMap';
 import {MapMode} from '../constants'
 
+const {places} = this.state;
 <GoogleMap
   mapMode={MapMode.CIRCLES}
-  places={this.state.places}
-  center={this.state.places && this.state.places[0] && this.state.prefPlaces[0].center}
+  places={places}
+  center={places && places[0] && places[0].center}
   rootStyles={{flex: '1 0 auto'}}
 />
 ```
